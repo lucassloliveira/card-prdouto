@@ -22,13 +22,8 @@ export function useCarrinho() {
     })
   }, []);
 
-  const limpar = useCallback(() => {
-    setItens(new Map())
-  }, []);
-
   // Valore derivados, calculados na hora, sem estado extra
   const getQtd = (id) => itens.get(id) || 0;
-  const estaNoCarrinho = (id) => itens.has(id);
 
   const totalItens = [...itens.values()].reduce((acc, qtd) => acc + qtd, 0);
 
@@ -38,9 +33,7 @@ export function useCarrinho() {
   return {
     adicionar,
     remover,
-    limpar,
     getQtd,
-    estaNoCarrinho,
     totalItens,
     itensDoCarrinho,
   }

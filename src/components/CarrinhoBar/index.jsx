@@ -2,7 +2,7 @@
 // COMPONENTE CarrinhoBar — barra superior com resumo do carrinho
 // ============================================================
 import PropTypes from 'prop-types'
-import { Bar, Logo, CartInfo, Badge, TotalTexto } from './styles'
+import { Bar, Logo, CartInfo, Badge } from './styles'
 
 function CarrinhoBar({ totalItens, totalValor }) {
   return (

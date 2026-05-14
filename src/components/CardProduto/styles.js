@@ -138,7 +138,7 @@ export const Botao = styled.button`
 
   &:hover {
     background: ${({ theme, $adicionado }) =>
-      $adicionado ? theme.colors.dangerLight : theme.colors.primary};
+      $adicionado ? '#198754' : '#6c757d'};
     color: ${({ theme, $adicionado }) =>
       $adicionado ? theme.colors.danger : '#ffffff'};
   }

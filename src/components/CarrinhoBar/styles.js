@@ -42,9 +42,3 @@ export const Badge = styled.span`
   opacity: ${({ $visivel }) => $visivel ? 1 : 0};
   transition: opacity 0.2s ease;
 `
-
-export const TotalTexto = styled.span`
-  font-weight: ${({ theme }) => theme.typography.weights.bold};
-  color: ${({ theme }) => theme.colors.text};
-  font-size: ${({ theme }) => theme.typography.sizes.sm};
-`
