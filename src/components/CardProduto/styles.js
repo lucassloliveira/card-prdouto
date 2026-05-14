@@ -33,7 +33,7 @@ export const Badge = styled.span`
   background: ${({ theme, $adicionado }) =>
     $adicionado ? theme.colors.successLight : theme.colors.primaryLight};
   color: ${({ theme, $adicionado }) =>
-    $adicionado ? theme.colors.success : theme.colors.primary};
+    $adicionado ? theme.colors.success : '#ffffff'};
 `
 
 export const NomeProduto = styled.h2`
@@ -134,11 +134,11 @@ export const Botao = styled.button`
     $adicionado ? theme.colors.successLight : theme.colors.primaryLight};
 
   color: ${({ theme, $adicionado }) =>
-    $adicionado ? theme.colors.success : theme.colors.primary};
+    $adicionado ? theme.colors.success : '#ffffff'};
 
   &:hover {
     background: ${({ theme, $adicionado }) =>
-      $adicionado ? '#198754' : '#6c757d'};
+      $adicionado ? theme.colors.dangerLight : theme.colors.primary};
     color: ${({ theme, $adicionado }) =>
       $adicionado ? theme.colors.danger : '#ffffff'};
   }

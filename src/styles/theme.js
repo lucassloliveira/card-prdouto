@@ -5,11 +5,11 @@ export const theme = {
   colors: {
     // Cores principais
     primary:       '#0f4c81',
-    primaryLight:  '#e8f1fa',
+    primaryLight:  '#6c757d',
     primaryHover:  '#0d3f6e',
 
     // Estados do botão
-    success:       '#1a7f4b',
+    success:       '#198754',
     successLight:  '#e6f4ed',
     danger:        '#c0392b',
     dangerLight:   '#fdecea',
