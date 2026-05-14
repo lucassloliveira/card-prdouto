@@ -1,0 +1,38 @@
+export const produtos = [
+    {
+        id: 1,
+        nome: 'Teclado Mecânico',
+        preco: 349.90,
+        parcelas: 3,
+        categoria: 'Periférico',
+        tags: ['Switch Blue', 'RGB'],
+        estoque: 12,
+    },
+    {
+      id: 2,
+        nome: 'Mouse Gamer',
+        preco: 189.90,
+        parcelas: 2,
+        categoria: 'Periférico',
+        tags: ['Sem fio', 'Ergonômico'],
+        estoque: 8,  
+    },
+    {
+        id: 3,
+        nome: 'Monitor 24" 144Hz',
+        preco: 1299.90,
+        parcelas: 10,
+        categoria: 'Display',
+        tags: ['Full HD', 'HDMI'],
+        estoque: 4,
+    },
+    {
+        id: 4,
+        nome: 'Headset 7.1',
+        preco: 279.90,
+        parcelas: 3,
+        categoria: 'Áudio',
+        tags: ['USB', 'Microfone'],
+        estoque: 20,
+    },
+]
